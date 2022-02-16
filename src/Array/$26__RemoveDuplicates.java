@@ -9,16 +9,14 @@ package Array;
 
 
 // 快慢指针
-public class RemoveDuplicates {
+public class $26__RemoveDuplicates {
     public static void main(String[] args) {
         int[] nums = {0,0,1,1,1,2,2,3,3,4};
         System.out.println(removeDuplicates(nums));
     }
 
-
     /**
-     * 快慢指针
-     *
+     * 快慢指针:
      * 如果右指针指向的值等于左指针指向的值，左指针不动。
      * 如果右指针指向的值不等于左指针指向的值，那么左指针往右移一步，然后再把右指针指向的值赋给左指针。
      */
