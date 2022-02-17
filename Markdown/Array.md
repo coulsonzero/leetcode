@@ -1,6 +1,6 @@
 ## Array Image
 
-# Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+# joinStr, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
 ### 数组元素检索
 ![](https://github.com/coulsonzero/JavaCode/blob/main/images/ArrayFind.gif)

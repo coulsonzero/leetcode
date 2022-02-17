@@ -8,7 +8,12 @@ package String;
  */
 
 public class ReverseWords {
-    public String reverseWords(String s) {
+    public static void main(String[] args) {
+        String s = "  hello world  ";
+        System.out.println(reverseWords(s));
+    }
+
+    public static String reverseWords(String s) {
         // 去除两端空白，并匹配空格字符
         String[] arr = s.trim().split("\\s+");
         StringBuilder sb = new StringBuilder();
