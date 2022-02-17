@@ -11,7 +11,7 @@ package Array;
  * explain: 1买入5卖出，利润为4； 然后3买入6卖出利润为3。总利润为4+3=7。
  * request: 低进高出，不允许在同一天买卖，无利润则输出0.
  */
-public class MaxProfit {
+class MaxProfit {
     public static void main(String[] args) {
         int[] prices = {7,1,5,3,6,4};
         System.out.println(maxProfit(prices));  // 7

@@ -14,7 +14,7 @@ import java.util.HashMap;
  * 解释：因为 nums[0] + nums[1] == 9 ，返回 [0, 1] 。
  */
 
-public class $01__TwoSum {
+class $01__TwoSum {
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
 

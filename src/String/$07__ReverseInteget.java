@@ -13,7 +13,7 @@ package String;
  * 输出：21
  */
 
-public class $07__ReverseInteget {
+class $07__ReverseInteget {
     public static void main(String[] args) {
         System.out.println(reverse(120));    // 21
         System.out.println(reverse(123));    // 321

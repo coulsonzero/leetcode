@@ -10,7 +10,7 @@ import java.util.LinkedList;
  * output: ['o','l','l','e','h']
  */
 
-public class ReverseCharArray {
+class ReverseCharArray {
     public static void main(String[] args) {
         char[] s = {'h','e','l','l','o'};
         reverseString(s);

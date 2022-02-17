@@ -7,7 +7,7 @@ package Array;
  * Output: 5, nums = [0,1,4,0,3]
  */
 
-public class RemoveElement {
+class RemoveElement {
     public static void main(String[] args) {
         int[] nums = {0,1,2,2,3,0,4,2};
         int val = 2;

@@ -9,10 +9,10 @@ package Array;
 
 
 // 快慢指针
-public class $26__RemoveDuplicates {
+class $26__RemoveDuplicates {
     public static void main(String[] args) {
         int[] nums = {0,0,1,1,1,2,2,3,3,4};
-        System.out.println(removeDuplicates(nums));
+        System.out.println(removeDuplicates2(nums));
     }
 
     /**
@@ -31,5 +31,13 @@ public class $26__RemoveDuplicates {
         }
         //返回左指针的索引+1，即新数组的长度
         return ++slow;
+    }
+
+    public static int removeDuplicates2(int[] nums) {
+        int j = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (i == 0 || nums[i] != nums[j-1]) nums[j++] = nums[i]; //j+1项的值替换成nums[i],长度为j
+        }
+        return j;
     }
 }

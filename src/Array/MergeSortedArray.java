@@ -7,7 +7,7 @@ import java.util.Arrays;
  * 输出：[1,2,2,3,5,6]
  */
 
-public class MergeSortedArray {
+class MergeSortedArray {
     public static void main(String[] args) {
         int[] nums1 = {1,2,3,0,0,0};
         int m = 3;

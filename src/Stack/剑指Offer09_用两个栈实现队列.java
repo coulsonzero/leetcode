@@ -9,12 +9,6 @@ import java.util.Stack;
  * 输出：[null,null,3,-1]
  */
 
-public class 剑指Offer09_用两个栈实现队列 {
-    public static void main(String[] args) {
-
-    }
-}
-
 /**
  * Stack
  * .push()

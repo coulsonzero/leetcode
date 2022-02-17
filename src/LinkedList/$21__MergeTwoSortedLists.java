@@ -7,12 +7,12 @@ package LinkedList;
  * Output: [1,1,2,3,4,4]
  */
 
-public class $21__MergeTwoSortedLists {
+class $21__MergeTwoSortedLists {
     static class ListNode {
         int val;
         ListNode next;
 
-        ListNode(int i, int i1, int i2) {
+        ListNode() {
         }
 
         ListNode(int val) {
@@ -36,9 +36,11 @@ public class $21__MergeTwoSortedLists {
     }
 
     public static void main(String[] args) {
+        /*
         ListNode node1 = new ListNode(1, 2, 4);
         ListNode node2 = new ListNode(1, 3, 4);
         mergeTwoLists(node1, node2);
+        */
     }
 }
 
