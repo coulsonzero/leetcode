@@ -1,8 +1,10 @@
 # IDEA
 .idea/
+out/
 
 # Mac
 .DS_Store
+
 
 # Compiled class file
 *.class
