@@ -9,10 +9,10 @@ import java.util.Scanner;
  */
 public class IsPrimeNum {
     public static void main(String[] args) {
-
         int n = new Scanner(System.in).nextInt();
         System.out.println(printMaxPrimeNum(n));
     }
+
     //从后遍历
     public static int printMaxPrimeNum(int n) {
         for (int i = n; i >= 2; i--) {

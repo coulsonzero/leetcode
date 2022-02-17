@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * 原地删除排序数组中的重复项，返回新长度
+ * 26. 原地删除排序数组中的重复项，返回新长度
  * 输入：nums = [0,0,1,1,1,2,2,3,3,4]
  * 输出：5
  * nums = [0,1,2,3,4]
@@ -9,7 +9,7 @@ package Array;
 
 
 // 快慢指针
-class $26__RemoveDuplicates {
+class RemoveDuplicates {
     public static void main(String[] args) {
         int[] nums = {0,0,1,1,1,2,2,3,3,4};
         System.out.println(removeDuplicates2(nums));

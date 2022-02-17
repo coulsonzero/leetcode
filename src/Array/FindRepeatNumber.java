@@ -14,31 +14,13 @@ import java.util.Arrays;
 class FindRepeatNumber {
     public static void main(String[] args) {
         int[] nums = {2, 3, 1, 0, 2, 5, 3};
-        System.out.println(findRepeatNumber1(nums));  // 2
-        System.out.println(findRepeatNumber2(nums));
+        System.out.println(findRepeatNumber(nums));  // 2
     }
 
-    public static int findRepeatNumber1 (int[] nums) {
+    public static int findRepeatNumber(int[] nums) {
         Arrays.sort(nums);
         for (int i = 1; i < nums.length; i++) {
-            if (nums[i] == nums[i-1]) {
-                return nums[i];
-            }
-        }
-        return -1;
-    }
-
-    public static int findRepeatNumber2(int[] nums) {
-        int i = 0;
-        while(i < nums.length) {
-            if(nums[i] == i) {
-                i++;
-                continue;
-            }
-            if(nums[nums[i]] == nums[i]) return nums[i];
-            int tmp = nums[i];
-            nums[i] = nums[tmp];
-            nums[tmp] = tmp;
+            if (nums[i] == nums[i-1]) return nums[i];
         }
         return -1;
     }
