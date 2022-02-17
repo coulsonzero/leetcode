@@ -2,18 +2,18 @@ package Array;
 
 import java.util.Arrays;
 
+/***************************
+ *         移除零           *
+ ***************************/
+
+
 public class MoveZero {
     public static void main(String[] args) {
-        Solution s = new Solution();
         int[] nums = {0, 1, 0, 3, 12};
-        s.moveZeroes(nums);
+        moveZeroes(nums);
         System.out.println(Arrays.toString(nums));
     }
-}
-
-
-class Solution {
-    public void moveZeroes(int[] nums) {
+    public static void moveZeroes(int[] nums) {
         int j = 0;
         for(int i=0; i<nums.length;i++){
             if(nums[i] != 0) {
