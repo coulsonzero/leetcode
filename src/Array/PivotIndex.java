@@ -1,6 +1,9 @@
 package Array;
 
 /**
+ *  @author coulson
+ *  @version 2021-06-08 13:35
+ *
  * 寻找数组的中心索引
  *
  * 输入：nums = [1, 7, 3, 6, 5, 6]
