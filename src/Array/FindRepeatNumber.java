@@ -5,7 +5,8 @@ import java.util.Arrays;
 /**
  * @author CoulsonZero
  * @version 2021-05-31 21:24
- * 查找重复元素
+ *
+ * 剑指Offic 03. 数组中重复的数字
  *
  * Input: [2, 3, 1, 0, 2, 5, 3]
  * Output: 2 或 3
