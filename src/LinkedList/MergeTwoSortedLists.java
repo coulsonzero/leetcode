@@ -7,7 +7,7 @@ package LinkedList;
  * Output: [1,1,2,3,4,4]
  */
 
-class $21__MergeTwoSortedLists {
+class MergeTwoSortedLists {
     static class ListNode {
         int val;
         ListNode next;
