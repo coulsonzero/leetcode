@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * 环形链表
+ * 环形链表1
  *
  * 如果链表中有某个节点，可以通过连续跟踪 next 指针再次到达，则链表中存在环。
  * pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环
